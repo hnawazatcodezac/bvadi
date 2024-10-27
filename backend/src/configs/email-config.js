@@ -2,7 +2,6 @@ const adminFromEmail = "tahiraziztesting@gmail.com";
 const adminToEmail = "tahiraziztesting@gmail.com";
 
 const configs = {
-  recaptchaSecretKey : process.env.RECAPTCHA_SECRET_KEY, 
   adminToEmail: adminToEmail,
   adminFromEmail: adminFromEmail,
   mailgunConfig: {

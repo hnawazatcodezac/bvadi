@@ -1,5 +1,5 @@
 {
-  "name": "bvadi-portfolio-backend",
+  "name": "portfolio-backend",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "bvadi-portfolio-backend"
+    "portfolio-backend"
   ],
   "author": "",
   "license": "ISC",
