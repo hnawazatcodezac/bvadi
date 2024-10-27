@@ -1,0 +1,393 @@
+.footer {
+  padding: 5% 7%;
+}
+
+.footer .footer-content {
+  background-color: #f6f6f6;
+  display: flex;
+  width: 100%;
+}
+
+.footer .footer-left-main-div {
+  width: 40%;
+  padding: 3% 0px 0px 3%;
+}
+
+.footer .footer-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer .footer-logo {
+  width: 200px;
+}
+
+.footer .footer-description {
+  margin: 3% 0% 10%;
+  color: #363636;
+  font-size: 18px;
+  font-weight: 500;
+  width: 100%;
+  padding-right: 18%;
+}
+
+.footer .footer-social {
+  width: 185px;
+}
+
+.footer .footer-rating {
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+  gap: 12px;
+}
+
+.footer .trustpilot-rating {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.footer .trustpilot-rating img {
+  width: 30px;
+}
+
+.footer .rating-stars {
+  width: 150px;
+}
+
+.footer .rating-score {
+  color: #363636;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.footer .footer-copyright {
+  color: #363636;
+  font-weight: 500;
+  padding-bottom: 3%;
+}
+
+.footer .footer-links {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  gap: 15%;
+  padding-top: 3%;
+}
+
+.footer .footer-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 20px;
+  height: 65%;
+}
+
+.footer .footer-column a {
+  color: #363636;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.footer .footer-right {
+  background-color: #2c3e50;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 15%;
+  padding: 5% 2%;
+}
+
+.footer .footer-right .contact-title {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.footer .footer-right .contact-info {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 7px;
+}
+
+.footer .footer-right .contact-phone {
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+.footer .footer-right .contact-email {
+  color: #fff;
+}
+
+.footer .footer-right .contact-logo {
+  width: 30px;
+  cursor: pointer;
+}
+
+.footer .footer-right .contact-info .contact {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1750px) {
+  .footer .footer-description {
+    padding-right: 10%;
+  }
+
+  .footer .footer-links {
+    width: 40%;
+  }
+
+  .footer .footer-right {
+    width: 20%;
+  }
+}
+
+@media (max-width: 1600px) {
+  .footer .footer-description {
+    padding-right: 4%;
+    font-size: 17px;
+  }
+
+  .footer .footer-logo {
+    width: 150px;
+  }
+
+  .footer .footer-column a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .footer .footer-description {
+    padding-right: 15%;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .footer .footer-links {
+    justify-content: flex-start;
+    gap: 10%;
+  }
+
+  .footer .footer-description {
+    font-size: 12.5px;
+    padding-right: 15%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .footer .footer-logo {
+    width: 150px;
+  }
+
+  .footer .footer-description {
+    font-size: 10px;
+    padding-right: 15%;
+  }
+
+  .footer .footer-social {
+    width: 150px;
+  }
+
+  .footer .rating-stars {
+    width: 110px;
+  }
+
+  .footer .rating-score,
+  .footer .trustpilot-rating {
+    font-size: 12px;
+  }
+
+  .footer .footer-copyright {
+    font-size: 10px;
+  }
+
+  .footer .footer-right .contact-title {
+    font-size: 16px;
+  }
+
+  .footer .footer-right .contact-info {
+    font-size: 12px;
+  }
+
+  .footer .footer-column {
+    height: 50%;
+  }
+
+  .footer .footer-column a {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 955px) {
+  .footer .footer-logo {
+    width: 100px;
+  }
+
+  .footer .footer-description {
+    font-size: 10px;
+    padding-right: 6%;
+  }
+
+  .footer .footer-column a {
+    font-size: 10px;
+  }
+
+  .footer .footer-right .contact-info {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 850px) {
+  .footer .footer-left-main-div {
+    width: 45%;
+  }
+
+  .footer .footer-links {
+    width: 35%;
+  }
+
+  .footer .footer-description {
+    font-size: 10px;
+    padding-right: 8%;
+  }
+
+  .footer .rating-score,
+  .footer .trustpilot-rating {
+    font-size: 10px;
+  }
+
+  .footer .footer-copyright {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 780px) {
+  .footer .footer-description {
+    font-size: 9.3px;
+  }
+}
+
+@media (max-width: 610px) {
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer .footer-content {
+    gap: 32px;
+  }
+
+  .footer .footer-links {
+    order: 1;
+    width: 100%;
+    gap: 0px;
+    height: 30vh;
+    justify-content: space-around;
+  }
+
+  .footer .footer-column {
+    height: 100%;
+  }
+
+  .footer .footer-column a {
+    font-size: 16px;
+  }
+
+  .footer .footer-right {
+    order: 2;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .footer .footer-right .footer-right-main-div {
+    width: 100%;
+  }
+
+  .footer .footer-right .contact-title {
+    text-align: center;
+  }
+
+  .footer .footer-right .contact-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 22px;
+  }
+
+  .footer .footer-right .contact-info .contact {
+    align-items: center;
+  }
+
+  .footer .footer-right .contact-info .address {
+    font-weight: normal;
+  }
+
+  .footer-right-break-line {
+    display: none;
+  }
+
+  .footer .footer-left-main-div {
+    order: 3;
+    width: 100%;
+    padding-inline: 7%;
+  }
+
+  .footer .footer-logo {
+    display: none;
+  }
+
+  .footer .footer-info {
+    align-items: center;
+  }
+
+  .footer .footer-description {
+    display: none;
+  }
+
+  .footer .footer-copyright {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .footer .footer-right .contact-logo {
+    width: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .footer .footer-links {
+    height: 25vh;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer .footer-column a {
+    font-size: 13px;
+  }
+
+  .footer .footer-content {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 350px) {
+  .footer .rating-stars {
+    width: 90px;
+  }
+
+  .footer .trustpilot-rating img {
+    width: 25px;
+  }
+
+  .footer .footer-links {
+    height: 18vh;
+  }
+}

@@ -1,0 +1,371 @@
+.search-engine-section {
+  padding: 5% 7%;
+  width: 100%;
+}
+
+.search-engine-section .search-engine-section-header h2 {
+  font-size: 40px;
+  font-weight: bold;
+  word-spacing: 2px;
+}
+
+.search-engine-section .search-engine-section-header p {
+  font-size: 29px;
+  font-weight: 500;
+  text-align: justify;
+}
+
+.search-engine-section .seo-services-container {
+  gap: 20px;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+}
+
+.search-engine-section .seo-service-card {
+  height: 30vh;
+  padding: 8%;
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  background-color: #f6f6f6;
+  transition: transform 0.2s;
+}
+
+.web-page .search-engine-section .seo-service-card {
+  height: 35vh;
+}
+
+.search-engine-section .seo-service-card:hover {
+  transform: translateY(-5px);
+}
+
+.search-engine-section .seo-service-card .icon {
+  margin-bottom: 10%;
+}
+
+.search-engine-section .seo-service-card .icon img {
+  width: 50px;
+  height: 50px;
+}
+
+.search-engine-section .seo-service-card h3 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 3%;
+}
+
+.search-engine-section .seo-service-card p {
+  font-size: 18.8px;
+  font-weight: 500;
+}
+
+@media (max-width: 1750px) {
+  .search-engine-section .search-engine-section-header h2 {
+    font-size: 38px;
+  }
+
+  .search-engine-section .search-engine-section-header p {
+    font-size: 27px;
+  }
+
+  .search-engine-section .seo-service-card p {
+    font-size: 16.8px;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 1600px) {
+  .search-engine-section .search-engine-section-header h2 {
+    font-size: 32px;
+  }
+
+  .search-engine-section .search-engine-section-header p {
+    font-size: 24px;
+  }
+
+  .search-engine-section .seo-service-card {
+    height: 40vh;
+  }
+
+  .web-page .search-engine-section .seo-service-card {
+    height: 45vh;
+  }
+
+  .search-engine-section .seo-service-card .icon img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .search-engine-section .seo-service-card h3 {
+    font-size: 26px;
+  }
+
+  .search-engine-section .seo-service-card p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .search-engine-section .search-engine-section-header h2 {
+    font-size: 30px;
+  }
+
+  .search-engine-section .seo-service-card h3,
+  .search-engine-section .search-engine-section-header p {
+    font-size: 22px;
+  }
+
+  .search-engine-section .seo-service-card {
+    height: 25vh;
+  }
+
+  .web-page .search-engine-section .seo-service-card {
+    height: 28vh;
+  }
+
+  .search-engine-section .seo-service-card .icon img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .search-engine-section .seo-service-card p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .search-engine-section .search-engine-section-header h2 {
+    font-size: 26px;
+  }
+
+  .search-engine-section .seo-service-card h3,
+  .search-engine-section .search-engine-section-header p {
+    font-size: 20px;
+  }
+
+  .search-engine-section .seo-service-card {
+    height: 30vh;
+  }
+
+  .web-page .search-engine-section .seo-service-card {
+    height: 30vh;
+  }
+
+  .search-engine-section .seo-service-card .icon img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .search-engine-section .seo-service-card p {
+    font-size: 12.3px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .search-engine-section .search-engine-section-header h2 {
+    font-size: 20px;
+  }
+
+  .search-engine-section .seo-service-card h3,
+  .search-engine-section .search-engine-section-header p {
+    font-size: 16px;
+  }
+
+  .web-page .search-engine-section .seo-service-card {
+    height: 35vh;
+  }
+
+  .search-engine-section .seo-service-card p {
+    font-size: 9.8px;
+  }
+}
+
+@media (max-width: 955px) {
+  .search-engine-section .search-engine-section-header h2 {
+    font-size: 18px;
+  }
+
+  .search-engine-section .seo-service-card h3,
+  .search-engine-section .search-engine-section-header p {
+    font-size: 14px;
+  }
+
+  .search-engine-section .seo-service-card p {
+    font-size: 8.6px;
+  }
+}
+
+@media (max-width: 855px) {
+  .search-engine-section .search-engine-section-header h2 {
+    font-size: 16px;
+  }
+
+  .search-engine-section .seo-service-card h3,
+  .search-engine-section .search-engine-section-header p {
+    font-size: 13px;
+  }
+
+  .search-engine-section .seo-service-card p {
+    font-size: 7.7px;
+  }
+}
+
+@media (max-width: 780px) {
+  .search-engine-section .search-engine-section-header h2 {
+    font-size: 13px;
+  }
+
+  .search-engine-section .seo-service-card h3,
+  .search-engine-section .search-engine-section-header p {
+    font-size: 12px;
+  }
+
+  .search-engine-section .seo-service-card p {
+    font-size: 7.2px;
+  }
+}
+
+@media (min-height: 1000px) and (max-width: 1050px) {
+  .search-engine-section .seo-service-card {
+    height: 15vh;
+  }
+
+  .web-page .search-engine-section .seo-service-card {
+    height: 18vh;
+  }
+}
+
+@media (min-height: 1000px) and (max-width: 955px) {
+  .search-engine-section .seo-service-card {
+    height: 13vh;
+  }
+
+  .web-page .search-engine-section .seo-service-card {
+    height: 15vh;
+  }
+}
+
+@media (max-width: 610px) {
+  .search-engine-section .seo-services-container {
+    grid-template-columns: repeat(auto-fill, minmax(47%, 1fr));
+  }
+
+  .search-engine-section .search-engine-section-header h2 {
+    font-size: 22px;
+    padding-right: 25%;
+  }
+
+  .search-engine-section .seo-service-card h3,
+  .search-engine-section .search-engine-section-header p {
+    font-size: 14px;
+  }
+
+  .web-page .search-engine-section .search-engine-section-header p {
+    font-size: 12.8px;
+  }
+
+  .search-engine-section .seo-service-card {
+    height: 25vh;
+    padding-inline: 4%;
+  }
+
+  .web-page .search-engine-section .seo-service-card {
+    height: 28vh;
+  }
+
+  .search-engine-section .seo-service-card p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .search-engine-section .search-engine-section-header h2 {
+    font-size: 18px;
+    padding-right: 25%;
+  }
+
+  .search-engine-section .search-engine-section-header p {
+    font-size: 11px;
+  }
+
+  .web-page .search-engine-section .search-engine-section-header p {
+    font-size: 10.2px;
+  }
+
+  .search-engine-section .seo-service-card h3 {
+    font-size: 12px;
+  }
+
+  .search-engine-section .seo-service-card {
+    height: 15vh;
+    padding-inline: 8%;
+  }
+
+  .web-page .search-engine-section .seo-service-card {
+    height: 18vh;
+  }
+
+  .search-engine-section .seo-service-card p {
+    font-size: 7.5px;
+  }
+
+  .search-engine-section .seo-service-card .icon img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 420px) {
+  .search-engine-section .search-engine-section-header p {
+    font-size: 10px;
+  }
+
+  .web-page .search-engine-section .search-engine-section-header p {
+    font-size: 9.9px;
+  }
+}
+
+@media (max-width: 400px) {
+  .search-engine-section .seo-service-card p {
+    font-size: 6.5px;
+  }
+
+  .web-page .search-engine-section .search-engine-section-header p {
+    font-size: 9.3px;
+  }
+}
+
+@media (max-width: 380px) {
+  .search-engine-section .seo-services-container {
+    grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+  }
+
+  .search-engine-section .search-engine-section-header h2 {
+    font-size: 15px;
+  }
+
+  .search-engine-section .seo-service-card {
+    height: 20vh;
+  }
+
+  .web-page .search-engine-section .seo-service-card {
+    height: 23vh;
+  }
+
+  .search-engine-section .search-engine-section-header p {
+    font-size: 9px;
+  }
+
+  .search-engine-section .seo-service-card h3 {
+    font-size: 10px;
+  }
+
+  .search-engine-section .seo-service-card p {
+    font-size: 6.3px;
+  }
+
+  .web-page .search-engine-section .search-engine-section-header p {
+    font-size: 8.8px;
+  }
+}

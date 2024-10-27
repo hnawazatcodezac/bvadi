@@ -1,0 +1,341 @@
+.seo-pricing {
+  padding: 5% 0px 0px;
+}
+
+.seo-pricing .seo-pricing-header h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #2c3e50;
+  padding-inline: 28%;
+  text-align: center;
+}
+
+.seo-pricing .seo-pricing-header p {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.pricing-container {
+  display: grid;
+  padding: 5% 7% 0%;
+  grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+  gap: 3%;
+}
+
+.web-page .pricing-container {
+  grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+}
+
+.pricing-card {
+  padding: 5%;
+  transition: transform 0.2s;
+}
+
+.pricing-card h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0px;
+  margin-top: 3%;
+}
+
+.pricing-card .price {
+  font-size: 56px;
+  font-weight: 600;
+  margin: 3% 0;
+}
+
+.pricing-card .get-started {
+  width: 100%;
+  margin-bottom: 3%;
+  padding: 15px 0px;
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background-color: #2c3e50;
+  transition: background-color 0.3s;
+}
+
+.pricing-card .get-started:hover {
+  background-color: #1a202c;
+}
+
+.pricing-card.basic {
+  background-color: #f6f6f6;
+}
+
+.pricing-card.pro {
+  background: var(--6, linear-gradient(175deg, #1abc9c 0%, #ffffff37 100%));
+}
+
+.pricing-card ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+.pricing-card li {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  margin-bottom: 3%;
+}
+
+.web-page .pricing-card li {
+  margin-top: 6%;
+}
+
+.pricing-card li.disable {
+  color: #b3b3b3;
+}
+
+@media (max-width: 1750px) {
+  .pricing-card .price {
+    font-size: 50px;
+  }
+
+  .seo-pricing .seo-pricing-header h2 {
+    padding-inline: 26%;
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 1600px) {
+  .seo-pricing .seo-pricing-header h2 {
+    padding-inline: 24%;
+  }
+
+  .pricing-card .price {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .seo-pricing .seo-pricing-header h2 {
+    font-size: 36px;
+    padding-inline: 25%;
+  }
+
+  .seo-pricing .seo-pricing-header p {
+    font-size: 22px;
+  }
+
+  .pricing-card .price {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .seo-pricing .seo-pricing-header h2 {
+    font-size: 32px;
+  }
+
+  .seo-pricing .seo-pricing-header p {
+    font-size: 20px;
+  }
+
+  .pricing-card .get-started {
+    margin-bottom: 5%;
+    font-size: 14px;
+  }
+
+  .pricing-card .price {
+    font-size: 36px;
+  }
+
+  .web-page .pricing-card li {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .seo-pricing .seo-pricing-header h2 {
+    font-size: 24px;
+  }
+
+  .seo-pricing .seo-pricing-header p {
+    font-size: 16px;
+  }
+
+  .pricing-card h2 {
+    font-size: 20px;
+  }
+
+  .pricing-card .get-started {
+    font-size: 10px;
+    padding: 12px 0px;
+  }
+
+  .pricing-card h2 {
+    font-size: 14px;
+  }
+
+  .pricing-card .price {
+    font-size: 28px;
+  }
+
+  .web-page .pricing-card li {
+    font-size: 10px;
+  }
+
+  .pricing-card ul {
+    font-size: 12px;
+  }
+
+  .pricing-card img {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+@media (max-width: 955px) {
+  .pricing-card .price {
+    font-size: 26px;
+  }
+
+  .web-page .pricing-card li {
+    font-size: 9px;
+  }
+
+  .seo-pricing .seo-pricing-header h2 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 855px) {
+  .seo-pricing .seo-pricing-header h2 {
+    font-size: 20px;
+  }
+
+  .seo-pricing .seo-pricing-header p {
+    font-size: 13px;
+  }
+
+  .pricing-card h2 {
+    font-size: 12px;
+  }
+
+  .pricing-card .price {
+    font-size: 22px;
+  }
+
+  .web-page .pricing-card li {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 780px) {
+  .seo-pricing .seo-pricing-header h2 {
+    font-size: 18px;
+  }
+
+  .seo-pricing .seo-pricing-header p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 610px) {
+  .web-page .pricing-container,
+  .pricing-container {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    gap: 32px;
+  }
+
+  .seo-pricing {
+    padding: 10% 0px;
+  }
+
+  .seo-pricing .seo-pricing-header h2 {
+    padding-inline: 23%;
+  }
+
+  .seo-pricing .seo-pricing-header p {
+    font-size: 13px;
+    padding-inline: 15%;
+    text-align: center;
+  }
+
+  .pricing-card h2 {
+    font-size: 18px;
+  }
+
+  .pricing-card .price {
+    font-size: 40px;
+  }
+
+  .pricing-card .get-started,
+  .web-page .pricing-card li {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 450px) {
+  .seo-pricing .seo-pricing-header h2 {
+    font-size: 18px;
+    padding-inline: 15%;
+  }
+
+  .seo-pricing .seo-pricing-header p {
+    font-size: 10px;
+  }
+
+  .pricing-card .price {
+    font-size: 35px;
+  }
+
+  .pricing-card .get-started,
+  .web-page .pricing-card li {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 400px) {
+  .seo-pricing .seo-pricing-header h2 {
+    font-size: 20px;
+    padding-inline: 8%;
+  }
+
+  .seo-pricing .seo-pricing-header p {
+    font-size: 11px;
+    padding-inline: 8%;
+  }
+}
+
+@media (max-width: 380px) {
+  .seo-pricing .seo-pricing-header h2 {
+    padding-inline: 5%;
+  }
+
+  .seo-pricing .seo-pricing-header p {
+    padding-inline: 5%;
+  }
+
+  .pricing-card .price {
+    font-size: 30px;
+  }
+
+  .pricing-card .get-started,
+  .web-page .pricing-card li {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 350px) {
+  .seo-pricing .seo-pricing-header h2 {
+    font-size: 17px;
+  }
+
+  .seo-pricing .seo-pricing-header p {
+    font-size: 9px;
+  }
+
+  .pricing-card .price {
+    font-size: 26px;
+  }
+
+  .pricing-card .get-started,
+  .web-page .pricing-card li {
+    font-size: 11px;
+  }
+}

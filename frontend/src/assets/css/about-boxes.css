@@ -1,0 +1,164 @@
+.boxes {
+  padding-inline: 7%;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.boxes .box {
+  padding: 2% 2% 3%;
+  width: 31%;
+  background: #f6f6f6;
+}
+
+.boxes .box .box-number {
+  font-size: 80px;
+  font-weight: 500;
+  color: #1abc9c;
+}
+
+.boxes .box .box-heading {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.boxes .box .box-paragraph {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+@media (max-width: 1750px) {
+  .boxes .box .box-paragraph {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .boxes .box .box-number {
+    font-size: 65px;
+  }
+
+  .boxes .box .box-heading {
+    font-size: 28px;
+  }
+
+  .boxes .box .box-paragraph {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .boxes .box .box-number {
+    font-size: 50px;
+  }
+
+  .boxes .box .box-heading {
+    font-size: 24px;
+  }
+
+  .boxes .box .box-paragraph {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .boxes .box .box-number {
+    font-size: 40px;
+  }
+
+  .boxes .box .box-heading {
+    font-size: 22px;
+  }
+
+  .boxes .box .box-paragraph {
+    font-size: 9.5px;
+  }
+}
+
+@media (max-width: 955px) {
+  .boxes .box .box-number {
+    font-size: 30px;
+  }
+
+  .boxes .box .box-heading {
+    font-size: 18px;
+  }
+
+  .boxes .box .box-paragraph {
+    font-size: 8.5px;
+  }
+}
+
+@media (max-width: 855px) {
+  .boxes .box .box-paragraph {
+    font-size: 7.5px;
+  }
+}
+
+@media (max-width: 780px) {
+  .boxes .box .box-paragraph {
+    font-size: 6.5px;
+  }
+}
+
+@media (max-width: 610px) {
+  .boxes .box {
+    width: 30%;
+  }
+
+  .boxes .box .box-number {
+    font-size: 25px;
+  }
+
+  .boxes .box .box-heading {
+    font-size: 12px;
+  }
+
+  .boxes .box .box-paragraph {
+    font-size: 5px;
+  }
+}
+
+@media (max-width: 500px) {
+  .boxes {
+    flex-direction: column;
+  }
+
+  .boxes .box {
+    width: 100%;
+    padding-inline: 5%;
+  }
+
+  .boxes .box .box-number {
+    font-size: 45px;
+  }
+
+  .boxes .box .box-heading {
+    font-size: 22px;
+  }
+
+  .boxes .box .box-paragraph {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 400px) {
+  .boxes .box .box-paragraph {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 380px) {
+  .boxes .box .box-number {
+    font-size: 30px;
+  }
+
+  .boxes .box .box-heading {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 350px) {
+  .boxes .box .box-paragraph {
+    font-size: 11px;
+  }
+}

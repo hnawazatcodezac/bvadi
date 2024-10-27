@@ -1,0 +1,561 @@
+.about-section {
+  padding: 5% 0%;
+}
+
+.about-section .about-row {
+  gap: 32px;
+  flex-wrap: wrap;
+  padding-inline: 7%;
+}
+
+.about-section .about-title-col {
+  font-size: 32px;
+  color: #2c3e50;
+  flex: 1 1 0%;
+  flex-direction: column;
+}
+
+.about-section .about-title {
+  white-space: nowrap;
+}
+
+.about-section .about-logo {
+  width: 70px;
+  margin-top: 46px;
+}
+
+.about-section .about-description {
+  width: 50%;
+  font-size: 28px;
+  color: #363636;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: justify;
+}
+
+.about-page .about-section .about-description {
+  width: 61%;
+  font-size: 27.5px;
+}
+
+.about-img-div {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  padding-inline: 7%;
+  margin-top: 5%;
+}
+
+.about-section .about-image-container {
+  width: 70%;
+}
+
+.about-img-div .about-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-section .about-image {
+  width: 100%;
+}
+
+.key-facts-section {
+  width: 100%;
+  padding: 5% 7%;
+  flex-wrap: wrap;
+}
+
+.key-facts-title {
+  width: 50%;
+  font-size: 32px;
+  color: #2c3e50;
+  font-weight: 700;
+  line-height: 50px;
+  padding-right: 25%;
+}
+
+.key-fact-break-point {
+  display: none;
+}
+
+.key-facts-row {
+  width: 50%;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.key-fact-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 0%;
+}
+
+.key-fact-number {
+  color: #363636;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.key-fact-text {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+.accent-color {
+  color: #1abc9c;
+}
+
+.mission-div {
+  width: 30%;
+  padding: 3% 3% 0%;
+  background: var(--6, linear-gradient(180deg, #1abc9c 0%, #fff 100%));
+}
+
+.about-img-div .mission-div img {
+  width: 70px;
+}
+
+.about-img-div .mission-div h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 5% 0%;
+  color: #2c3e50;
+}
+
+.about-img-div .mission-div p {
+  font-size: 15.5px;
+  font-weight: 500;
+  text-align: justify;
+}
+
+.home-page .mission-div {
+  display: none;
+}
+
+.home-page .about-img-div {
+  padding-inline: 0%;
+}
+
+.home-page .about-section .about-image-container {
+  width: 100%;
+}
+
+@media (max-width: 1750px) {
+  .about-section .about-description {
+    font-size: 26px;
+  }
+
+  .about-page .about-section .about-description {
+    width: 62%;
+    font-size: 25px;
+  }
+
+  .about-img-div .mission-div img {
+    width: 60px;
+  }
+
+  .about-img-div .mission-div p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 1600px) {
+  .about-section .about-description {
+    font-size: 23px;
+  }
+
+  .about-page .about-section .about-description {
+    font-size: 23px;
+    width: 64%;
+  }
+
+  .key-facts-title {
+    font-size: 26px;
+  }
+
+  .about-img-div .mission-div img {
+    width: 50px;
+  }
+
+  .about-img-div .mission-div p {
+    font-size: 12.4px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .about-section .about-description {
+    font-size: 22px;
+  }
+
+  .about-page .about-section .about-description {
+    width: 65%;
+    font-size: 22px;
+  }
+
+  .key-facts-title {
+    font-size: 26px;
+  }
+
+  .about-img-div .mission-div img {
+    width: 50px;
+  }
+
+  .about-img-div .mission-div h2 {
+    font-size: 28px;
+  }
+
+  .about-img-div .mission-div p {
+    font-size: 11.6px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .about-section .about-description {
+    font-size: 19px;
+  }
+
+  .about-page .about-section .about-description {
+    width: 67%;
+    font-size: 20px;
+  }
+
+  .about-section .about-title {
+    font-size: 28px;
+  }
+
+  .about-section .about-logo {
+    width: 50px;
+  }
+
+  .key-facts-title {
+    font-size: 24px;
+    line-height: 35px;
+  }
+
+  .key-fact-number {
+    font-size: 36px;
+  }
+
+  .key-fact-text {
+    font-size: 14px;
+    margin: 0px;
+  }
+
+  .about-img-div .mission-div img {
+    width: 40px;
+  }
+
+  .about-img-div .mission-div h2 {
+    font-size: 22px;
+  }
+
+  .about-img-div .mission-div p {
+    font-size: 10.2px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .about-section .about-description {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .about-page .about-section .about-description {
+    font-size: 16px;
+  }
+
+  .about-section .about-title {
+    font-size: 22px;
+  }
+
+  .key-facts-title {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .key-fact-number {
+    font-size: 28px;
+  }
+
+  .key-fact-text {
+    font-size: 12px;
+  }
+
+  .about-img-div .mission-div p {
+    font-size: 8.2px;
+  }
+}
+
+@media (max-width: 955px) {
+  .about-section .about-description {
+    font-size: 14px;
+  }
+
+  .about-page .about-section .about-description {
+    width: 68%;
+    font-size: 14.5px;
+  }
+
+  .about-section .about-logo {
+    margin-top: 25px;
+  }
+
+  .key-facts-title {
+    font-size: 16px;
+  }
+
+  .key-fact-text {
+    font-size: 10px;
+  }
+
+  .about-img-div .mission-div img {
+    width: 30px;
+  }
+
+  .about-img-div .mission-div h2 {
+    font-size: 18px;
+  }
+
+  .about-img-div .mission-div p {
+    font-size: 7.5px;
+  }
+}
+
+@media (max-width: 850px) {
+  .about-section .about-description {
+    font-size: 12px;
+  }
+
+  .about-page .about-section .about-description {
+    width: 70%;
+    font-size: 13.5px;
+  }
+
+  .key-facts-title {
+    font-size: 14px;
+  }
+
+  .about-img-div .mission-div p {
+    font-size: 6.8px;
+  }
+}
+
+@media (max-width: 790px) {
+  .about-section .about-description {
+    font-size: 11.5px;
+  }
+
+  .about-page .about-section .about-description {
+    width: 67%;
+    font-size: 12px;
+  }
+
+  .key-facts-title {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .key-fact-text {
+    font-size: 9px;
+  }
+
+  .about-img-div .mission-div p {
+    font-size: 6.4px;
+  }
+}
+
+@media (max-width: 610px) {
+  .about-section .break-point {
+    display: none;
+  }
+
+  .about-section .about-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .about-section .about-title-col {
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .about-section .about-title,
+  .about-section .about-logo {
+    margin: 0px;
+  }
+
+  .about-section .about-description,
+  .about-page .about-section .about-description {
+    width: 100%;
+    font-size: 12.6px;
+  }
+
+  .key-facts-section {
+    flex-direction: column;
+    margin-top: 5%;
+  }
+
+  .key-facts-title {
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    font-size: 20px;
+    line-height: 12px;
+    margin-bottom: 20px;
+  }
+
+  .key-fact-break-point {
+    display: block;
+  }
+
+  .key-facts-row {
+    width: 100%;
+  }
+
+  .key-fact-number {
+    margin-bottom: 10px;
+  }
+
+  .home-page .mission-div {
+    display: block;
+  }
+
+  .home-page .about-img-div {
+    padding-inline: 7%;
+  }
+
+  .about-img-div {
+    flex-direction: column;
+  }
+
+  .about-img-div .mission-div {
+    width: 100%;
+  }
+
+  .about-img-div .mission-div img {
+    width: 40px;
+  }
+
+  .about-img-div .mission-div h2 {
+    font-size: 32px;
+  }
+
+  .about-img-div .mission-div p {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+  }
+
+  .about-img-div .about-image-container {
+    width: 100%;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 450px) {
+  .about-section .about-title {
+    font-size: 20px;
+  }
+
+  .about-section .about-logo {
+    width: 35px;
+  }
+
+  .about-section .about-description,
+  .about-page .about-section .about-description {
+    font-size: 10.1px;
+    line-height: 18px;
+  }
+
+  .about-img-div .mission-div h2 {
+    font-size: 28px;
+  }
+
+  .about-img-div .mission-div p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 400px) {
+  .about-section .about-title {
+    font-size: 18px;
+  }
+
+  .about-section .about-description,
+  .about-page .about-section .about-description {
+    font-size: 9.2px;
+  }
+
+  .about-img-div .mission-div h2 {
+    font-size: 24px;
+  }
+
+  .about-img-div .mission-div p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 380px) {
+  .about-section .about-description,
+  .about-page .about-section .about-description {
+    line-height: 14px;
+  }
+
+  .about-img-div .mission-div p {
+    font-size: 12px;
+  }
+
+  .key-facts-title {
+    font-size: 16px;
+  }
+
+  .key-fact-number {
+    font-size: 16px;
+  }
+
+  .key-fact-text {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 350px) {
+  .about-section .about-title {
+    font-size: 16px;
+  }
+
+  .about-section .about-description,
+  .about-page .about-section .about-description {
+    font-size: 8.2px;
+  }
+
+  .about-img-div .mission-div p {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 330px) {
+  .about-section .about-description,
+  .about-page .about-section .about-description {
+    font-size: 7.5px;
+    line-height: 14px;
+  }
+
+  .key-facts-title {
+    font-size: 14px;
+    line-height: 8px;
+  }
+
+  .key-fact-text {
+    font-size: 7px;
+  }
+
+  .about-img-div .mission-div p {
+    font-size: 10.5px;
+  }
+}

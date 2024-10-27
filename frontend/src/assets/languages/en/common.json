@@ -1,0 +1,475 @@
+{
+  "header": {
+    "menu": {
+      "home": "Home",
+      "about": "About",
+      "seo": "SEO",
+      "web": "WEB",
+      "blogs": "Blogs"
+    },
+    "get_in_touch": "Get in Touch"
+  },
+  "home_hero_section": {
+    "heading": {
+      "we": "WE ARE",
+      "creative": "CREATIVE",
+      "agencies": "AGENCIES"
+    },
+    "sub_text": "Award-winning studio Based in San Francisco",
+    "description": "BulutVadi is a marketing & development agency of the future with 120+ successful projects in their portfolio.",
+    "cta_btn": "Book a demo"
+  },
+  "about_section": {
+    "title_one": "ABOUT",
+    "title_two": "BULUTVADI",
+    "description": "At BulutVadi, we are passionate about crafting exceptional digital experiences that help businesses thrive online. As a full-service digital agency specializing in SEO and website development, we bridge the gap between creativity and technology to deliver innovative solutions tailored to your unique business needs.",
+    "our_mission": {
+      "title": "OUR MISSION",
+      "description": "We aim to empower businesses by creating websites that not only look great but also perform exceptionally in search rankings. Our mission is to help you grow, engage your target audience, and convert visitors into loyal customers through cutting-edge web development and data-driven SEO strategies."
+    },
+    "key_facts": {
+      "title_one": "GET AQUANTED",
+      "title_two": "WITH OUR KEY FACTS",
+      "trusted_users": "Trusted Users",
+      "trusted_users_numbers": "8.2",
+      "trusted_users_numbers_represents": "k",
+      "projects_completed": "Project Completed",
+      "projects_completed_numbers": "120",
+      "projects_completed_numbers_represents": "+",
+      "client_satisfaction": "Clients Satisfaction",
+      "client_satisfaction_numbers": "97",
+      "client_satisfaction_numbers_represents": "%"
+    }
+  },
+  "about_boxes": {
+    "box_one": {
+      "number": "01",
+      "title": "Tailored Solutions",
+      "description": "Every business is unique, and we ensure that your website and SEO strategies align with your goals."
+    },
+    "box_two": {
+      "number": "02",
+      "title": "Client-Centric",
+      "description": "We value open communication and collaborate closely with you to exceed your expectations."
+    },
+    "box_three": {
+      "number": "03",
+      "title": "Seamless Expertise",
+      "description": "From concept to launch we ensure sustainable growth for your business."
+    }
+  },
+  "services_section": {
+    "title": "KNOW OUR SERVICES",
+    "sub_title": "Our exceptional and reliable services",
+    "services": {
+      "seo": {
+        "title": "Search Engine Optimization",
+        "description": "Digital Marketing"
+      },
+      "web_development": {
+        "title": "Business Website Development",
+        "description": "Development & Coding"
+      }
+    }
+  },
+  "search_engine_section": {
+    "search_engine_section_header": {
+      "title": "SEARCH ENGINE OPTIMIZATION",
+      "text": "Unlock the full potential of your online presence with our expert SEO services. We help businesses like yours rank higher in search results, attract qualified leads, and grow your brand's digital footprint."
+    },
+    "card_container": {
+      "seo_service_card_one": {
+        "title": "Keyword Research",
+        "text": "Identifying high-value keywords relevant to your business."
+      },
+      "seo_service_card_two": {
+        "title": "Content Optimization",
+        "text": "Enhancing website content with target keywords, meta descriptions, and headers."
+      },
+      "seo_service_card_three": {
+        "title": "Technical SEO",
+        "text": "Improving site speed, mobile responsiveness, and site architecture."
+      },
+      "seo_service_card_four": {
+        "title": "Backlinking Building",
+        "text": "Acquiring high-quality backlinks to boost authority."
+      },
+      "seo_service_card_five": {
+        "title": "Social Integration",
+        "text": "Leveraging social media to enhance brand visibility and engagement."
+      },
+      "seo_service_card_six": {
+        "title": "Local SEO",
+        "text": "Optimizing for local searches & managing local business listings."
+      },
+      "seo_service_card_seven": {
+        "title": "Site Audit",
+        "text": "Conducting a comprehensive site audit to identify and fix technical issues."
+      },
+      "seo_service_card_eight": {
+        "title": "XML Sitemap",
+        "text": "Conducting a comprehensive site audit to identify and fix technical issues."
+      },
+      "seo_service_card_nine": {
+        "title": "Site Security",
+        "text": "Implementing HTTPS and other security measures."
+      },
+      "seo_service_card_ten": {
+        "title": "Performance Track",
+        "text": "Monitoring keyword rankings, traffic, and other key metrics."
+      },
+      "seo_service_card_eleven": {
+        "title": "Monthly Reports",
+        "text": "Providing detailed reports on SEO performance and progress."
+      }
+    }
+  },
+  "website_development_section": {
+    "website_development_section_header": {
+      "title": "BUSINESS WEBSITE DEVELOPMENT",
+      "text": "Business website development via Shopify involves creating an eCommerce-focused site with integrated store management and payment processing features. Wix offers a versatile platform for building customizable websites with optional eCommerce capabilities, emphasizing design flexibility and ease of use."
+    },
+    "card_container": {
+      "website_development_card_one": {
+        "title": "Designs & Themes",
+        "text": "Offers a range of professional themes. You can customize them to suit your brand’s look and feel. Choose a theme that fits your industry and business model."
+      },
+      "website_development_card_two": {
+        "title": "Products Listings",
+        "text": "Make sure to create detailed product pages with high-quality images, clear descriptions, pricing, and any relevant details. Shopify has built-in tools to manage inventory and orders."
+      },
+      "website_development_card_three": {
+        "title": "Payment Gateways",
+        "text": "Supports multiple payment gateways like PayPal, Stripe, Payoneer and Shopify Payments. Ensure you set up the payment methods your customers prefer."
+      },
+      "website_development_card_four": {
+        "title": "SEO & Marketing",
+        "text": "SEO tools to optimize your site for search engines. Additionally, explore options for email marketing, social media integration, and ads."
+      },
+      "website_development_card_five": {
+        "title": "Customer Support",
+        "text": "Offers various apps and integrations for customer support, including live chat, help desks, and FAQ sections."
+      },
+      "website_development_card_six": {
+        "title": "Site Analytics",
+        "text": "Analytics dashboard to track sales, visitor behavior, and other key metrics."
+      }
+    }
+  },
+  "seo_pricing": {
+    "header": {
+      "title": "Choose the Perfect SEO Package for Your Business",
+      "description": "Tailored SEO solutions to enhance your online visibility and drive organic traffic."
+    },
+    "packages": {
+      "basic": {
+        "title": "BASIC",
+        "price": "$50",
+        "btn": "Get Started",
+        "features": {
+          "one": "Keyword Research",
+          "two": "On-Page Optimization",
+          "three": "Monthly Performance Report",
+          "four": "Content Creation",
+          "five": "Backlinking",
+          "six": "Competitor Analysis"
+        }
+      },
+      "pro": {
+        "title": "PRO",
+        "price": "$150",
+        "btn": "Get Started",
+        "features": {
+          "one": "Keyword Research",
+          "two": "On-Page Optimization",
+          "three": "Monthly Performance Report",
+          "four": "Content Creation",
+          "five": "Backlinking",
+          "six": "Competitor Analysis"
+        }
+      }
+    }
+  },
+  "web_pricing": {
+    "header": {
+      "title": "Choose the Perfect WEB Package for Your Business",
+      "text": "Tailored WEB solutions to enhance your online visibility and drive organic traffic."
+    },
+    "packages": {
+      "basic": {
+        "title": "BASIC",
+        "price": "$500 - $1000",
+        "btn": "Get Started",
+        "features": {
+          "one": "Customizable Template or Theme Setup",
+          "two": "Basic Design and Layout Adjustments",
+          "three": "Up to 5 Pages",
+          "four": "Basic SEO Setup",
+          "five": "Contact Form Integration",
+          "six": "Basic Training on How to Manage the Site"
+        }
+      },
+      "pro": {
+        "title": "PRO",
+        "price": "$1,500 - $3,000",
+        "btn": "Get Started",
+        "features": {
+          "one": "Custom Design and Branding",
+          "two": "Advanced Features",
+          "three": "Up to 15 Pages",
+          "four": "Advanced SEO Setup",
+          "five": "Integration with Third-Party Tools",
+          "six": "Training, Support & Ongoing Maintenance"
+        }
+      },
+      "silver": {
+        "title": "SILVER",
+        "price": "$1000 - $2000",
+        "btn": "Get Started",
+        "features": {
+          "one": "Customizable Template or Theme Setup",
+          "two": "Basic Design and Layout Adjustments",
+          "three": "Up to 7 Pages",
+          "four": "Basic SEO Setup",
+          "five": "Contact Form Integration",
+          "six": "Basic Training on How to Manage the Site"
+        }
+      }
+    }
+  },
+  "web_projects_section": {
+    "title": "CHECKOUT OUR PROJECTS"
+  },
+  "testimonials_section": {
+    "title": "TESTIMONIALS",
+    "testimonials_one": {
+      "primary_text": "\"I am looking forward to working with the BulutVadi again.\"",
+      "secondary_text": "I create efficient, adaptable, and engaging websites. No predefined patterns. No sluggish, complex code. Webflow forms the foundation of my web development approach. I employ it to provide safe, top-notch bespoke websites.",
+      "name": "Dora Dybala",
+      "role": "CEO & Founder of Company"
+    },
+    "testimonials_two": {
+      "primary_text": "\"Anticipating the next chapter of collaboration with BulutVadi\"",
+      "secondary_text": "I create efficient, adaptable, and engaging websites. No predefined patterns. No sluggish, complex code. Webflow forms the foundation of my web development approach. I employ it to provide safe, top-notch bespoke websites.",
+      "name": "Ryan Dyson",
+      "role": "CTO of Company"
+    }
+  },
+  "faq": {
+    "header": {
+      "title": "FREQUENTLY ASKED QUESTIONS",
+      "text": "Got questions? We've got answers!"
+    },
+    "seo_questions": {
+      "question_one": {
+        "question": "How long does it take to see SEO results?",
+        "answer": "Results can typically take 3-6 months depending on the competitiveness of your industry and keywords.",
+        "link_text": "Understanding SEO Timelines and What to Expect"
+      },
+      "question_two": {
+        "question": "What is the difference between on-page and off-page SEO?",
+        "answer": "On-page SEO involves optimizing the content on your website, while off-page SEO focuses on building backlinks from other sites."
+      },
+      "question_three": {
+        "question": "How do I know which SEO package is right for me?",
+        "answer": "The right SEO package depends on your goals, target audience, and budget. It's best to consult an expert for personalized advice."
+      },
+      "question_four": {
+        "question": "Is SEO a one-time effort?",
+        "answer": "SEO is an ongoing effort, as search engines update their algorithms and competition changes."
+      },
+      "question_five": {
+        "question": "How does local SEO work?",
+        "answer": "Local SEO focuses on optimizing your website to appear in search results for location-based queries, like 'SEO services near me'."
+      },
+      "question_six": {
+        "question": "What is keyword research, and why is it important?",
+        "answer": "Keyword research helps identify the search terms that your target audience uses, allowing you to optimize content accordingly."
+      },
+      "question_seven": {
+        "question": "How do I track the success of my SEO campaign?",
+        "answer": "Track SEO success by monitoring website traffic, rankings, and conversions using tools like Google Analytics and Search Console."
+      }
+    },
+    "web_questions": {
+      "question_one": {
+        "question": "How long does it take to build a website?",
+        "answer": "The timeline depends on the complexity of the website. It can take anywhere from 4 to 12 weeks.",
+        "link_text": "How Long Does It Really Take to Build a Website?"
+      },
+      "question_two": {
+        "question": "What’s the difference between a custom website and using a template?",
+        "answer": "A custom website is built from scratch, tailored to your specific business needs and branding, offering unique design and functionality. In contrast, a template-based website uses pre-designed layouts, which are quicker and more affordable to implement but offer less flexibility and uniqueness compared to a custom website."
+      },
+      "question_three": {
+        "question": "What is responsive web design?",
+        "answer": "Responsive web design is an approach that ensures your website adapts seamlessly to different screen sizes and devices. This means the layout, images, and content adjust automatically to provide an optimal viewing experience on desktops, tablets, and mobile phones."
+      },
+      "question_four": {
+        "question": "How much does a website cost?",
+        "answer": "The cost of a website varies based on factors such as design complexity, number of pages, required features, and whether it's a custom-built site or a template. Generally, a basic website can range from a few hundred to several thousand dollars. For a more precise estimate, it's best to discuss your needs with a web development agency."
+      },
+      "question_five": {
+        "question": "What is the difference between front-end and back-end development?",
+        "answer": "Front-end development focuses on the parts of a website that users interact with, such as layout, design, and user interface. It involves technologies like HTML, CSS, and JavaScript. Back-end development, on the other hand, deals with the server-side of the website, managing databases, server logic, and application performance, often using languages like PHP, Python, or Node.js. Both are crucial for a fully functional website."
+      },
+      "question_six": {
+        "question": "Will my website be optimized for SEO?",
+        "answer": "Yes, your website can be optimized for SEO by following best practices such as using relevant keywords, creating high-quality content, optimizing meta tags and images, improving page load speed, and ensuring mobile responsiveness. Additionally, tools like Google Analytics and Search Console can be used to track performance and make data-driven improvements over time."
+      },
+      "question_seven": {
+        "question": "Do you offer ongoing maintenance and support?",
+        "answer": "Yes, we offer ongoing maintenance and support for your website. This includes regular updates, security checks, performance monitoring, and technical support to ensure your website remains functional and up-to-date with the latest standards and technologies."
+      }
+    }
+  },
+  "blog": {
+    "header": {
+      "title": "BLOGS",
+      "description": "Useful resources for you."
+    },
+    "category_filter": {
+      "newest": "Newest",
+      "categories": {
+        "all": "All",
+        "website_development": "Website Development",
+        "shopify_websites": "Shopify Websites",
+        "e_commerce_store": "E-Commerce Store",
+        "seo": "SEO",
+        "keyword_research": "Keyword Research"
+      }
+    },
+    "posts": {
+      "post_1": {
+        "date": "20 Sep 2024",
+        "time": "5 mins read",
+        "title": "5 Essential Tips For Optimizing Your Shopify Store",
+        "description": "Did you know that over 1.75 million merchants use Shopify to power their online stores?",
+        "category": "Website Development"
+      },
+      "post_2": {
+        "date": "20 Sep 2024",
+        "time": "5 mins read",
+        "title": "5 Essential Tips For Optimizing Your Shopify Store",
+        "description": "Did you know that over 1.75 million merchants use Shopify to power their online stores?",
+        "category": "Shopify Websites"
+      },
+      "post_3": {
+        "date": "20 Sep 2024",
+        "time": "5 mins read",
+        "title": "5 Essential Tips For Optimizing Your Shopify Store",
+        "description": "Did you know that over 1.75 million merchants use Shopify to power their online stores?",
+        "category": "E-Commerce Store"
+      },
+      "post_4": {
+        "date": "20 Sep 2024",
+        "time": "5 mins read",
+        "title": "5 Essential Tips For Optimizing Your Shopify Store",
+        "description": "Did you know that over 1.75 million merchants use Shopify to power their online stores?",
+        "category": "SEO"
+      },
+      "post_5": {
+        "date": "20 Sep 2024",
+        "time": "5 mins read",
+        "title": "5 Essential Tips For Optimizing Your Shopify Store",
+        "description": "Did you know that over 1.75 million merchants use Shopify to power their online stores?",
+        "category": "Keyword Research"
+      },
+      "post_6": {
+        "date": "20 Sep 2024",
+        "time": "5 mins read",
+        "title": "5 Essential Tips For Optimizing Your Shopify Store",
+        "description": "Did you know that over 1.75 million merchants use Shopify to power their online stores?",
+        "category": "Shopify Websites"
+      }
+    }
+  },
+  "contact_us": {
+    "header": {
+      "title": "CONTACT US",
+      "description": "Have questions? Reach out, and we'll be happy to guide you through our process."
+    },
+    "form": {
+      "placeholder": {
+        "name": "Name",
+        "email": "Email",
+        "phone_number": "Phone no",
+        "subject": "Subject",
+        "message": "Message*"
+      },
+      "validations": {
+        "name": {
+          "err_one": "Name can only contain letters and spaces",
+          "err_two": "Name is required",
+          "err_three": "Name may not contain any spaces at the beginning or end"
+        },
+        "email": {
+          "err_one": "Enter a valid email",
+          "err_two": "Email is required",
+          "err_three": "Email may not contain any spaces at the beginning or end"
+        },
+        "phone": {
+          "err_one": "Please provide a valid phone number",
+          "err_two": "Phone number may not contain any spaces at the beginning or end"
+        },
+        "subject": {
+          "err_one": "Subject is required",
+          "err_two": "Subject may not contain any spaces at the beginning or end"
+        },
+        "message": {
+          "err_one": "Message may not contain any spaces at the beginning or end"
+        }
+      },
+      "submit_button": "Send Message"
+    }
+  },
+  "seo_cta_section_transform": {
+    "title_one": "Want to transform your",
+    "title_two": "online presence?",
+    "description_one": "Schedule a free consultation with our experts today. Don't miss out on the",
+    "description_two": "opportunity to transform your business. Let's grow together!",
+    "cta_btn": "Get a Free Quotation",
+    "features": {
+      "one": "Affordable Plans for All",
+      "two": "Secure and Reliable"
+    }
+  },
+  "seo_cta_section_elevate": {
+    "title_one": "READY TO ELEVATE YOUR",
+    "title_two": "DIGITAL PRESENCE",
+    "description_one": "Whether you’re looking to build a stunning website or boost your search engine rankings, we’re here to help you succeed.",
+    "description_two": "At BulutVadi, we combine creativity, strategy, and technology to bring your vision to life.",
+    "cta_btn": "Explore Our Services"
+  },
+  "seo_scrolling_text": {
+    "text_one": "Search Engine Optimization",
+    "text_two": "Business Website Development"
+  },
+  "footer": {
+    "description": "Whether you're looking to improve your online presence, drive organic traffic, or create a website that reflects your brand's identity, we've got you covered.",
+    "trustpilot": "Trustpilot",
+    "rating": "4.8 / 5",
+    "copyright": "Copyright @ 2023 All Rights Reserved",
+    "menu": {
+      "home": "Home",
+      "about": "About Us",
+      "seo": "SEO Services",
+      "web": "Business Website",
+      "blogs": "Blogs",
+      "integrations": "Integrations",
+      "careers": "Careers",
+      "privacy_policy": "Privacy Policy",
+      "terms": "Terms & Condition",
+      "cookie_policy": "Cookie Policy"
+    },
+    "contact": {
+      "title": "Get in touch",
+      "phone": "+1 (0) 911 18 27 16",
+      "email": "info@bulutvadi.com",
+      "location": {
+        "city": "Based in San Francisco",
+        "country": "United Kingdom"
+      }
+    }
+  }
+}
