@@ -1,7 +1,6 @@
 import React, { useRef, useState } from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { useTranslation } from "react-i18next";
-import ReCAPTCHA from "react-google-recaptcha";
 import * as Yup from "yup";
 import Header from "../components/header";
 import Testimonial from "../components/testimonial";
@@ -11,7 +10,6 @@ import Seo from "../components/seo";
 import "../assets/css/contact-form.css";
 
 const serverBaseUrl = process.env.REACT_APP_BACKEND_SERVER_URL;
-const recaptchaSiteKey = process.env.REACT_APP_RECAPTCHA_SITE_KEY;
 
 function ContactPage() {
   const { t } = useTranslation();
@@ -69,9 +67,7 @@ function ContactPage() {
       ),
   });
 
-  const recaptcha = useRef();
   const [alert, setAlert] = useState(false);
-  const [captchaError, setCaptchaError] = useState(false);
   const [fieldErrors, setFieldErrors] = useState({});
   const defaultFormData = {
     name: "",
@@ -82,12 +78,6 @@ function ContactPage() {
   };
 
   const handleSubmit = async (values, { setSubmitting, resetForm }) => {
-    const captchaValue = recaptcha.current.getValue();
-    if (!captchaValue) {
-      setCaptchaError("reCAPTCHA is required");
-      return;
-    }
-    setCaptchaError(false);
     window.scrollTo({
       top: 0,
       behavior: "smooth",
@@ -99,7 +89,7 @@ function ContactPage() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ ...values, captchaValue }),
+        body: JSON.stringify({ ...values }),
       });
       const responseData = await response.json();
       if (response.status === 201) {
@@ -252,19 +242,6 @@ function ContactPage() {
                   )}
                 </div>
               </div>
-
-              <div className="form-group mt-5">
-                <ReCAPTCHA ref={recaptcha} sitekey={recaptchaSiteKey} />
-                {captchaError && (
-                  <p className="joi-error-message">{captchaError}</p>
-                )}
-                {fieldErrors.captchaValue && (
-                  <p className="joi-error-message">
-                    {fieldErrors.captchaValue[0]}
-                  </p>
-                )}
-              </div>
-
               <div className="form-group full-width">
                 <button type="submit" disabled={isSubmitting}>
                   {t("contact_us.form.submit_button")}

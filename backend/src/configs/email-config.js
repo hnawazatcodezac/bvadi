@@ -1,5 +1,5 @@
-const adminFromEmail = "tahiraziztesting@gmail.com";
-const adminToEmail = "tahiraziztesting@gmail.com";
+const adminFromEmail = process.env.ADMIN_FROM_EMAIL;
+const adminToEmail = process.env.ADMIN_TO_EMAIL;
 
 const configs = {
   adminToEmail: adminToEmail,

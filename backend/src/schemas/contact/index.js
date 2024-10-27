@@ -47,11 +47,5 @@ module.exports = {
       "string.trim":
         "Message may not contain any spaces at the beginning or end",
     }),
-    captchaValue: Joi.string()
-      .required()
-      .messages({
-        "any.required": "reCAPTCHA is required",
-        "string.empty": "reCAPTCHA is missing",
-      }),
   }),
 };
