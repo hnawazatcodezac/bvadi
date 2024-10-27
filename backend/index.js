@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 require("dotenv").config();
-const serverless = require("serverless-http"); // Import serverless-http
+const serverless = require("serverless-http");
 
 const app = express();
 const version = process.env.API_VERSION;
