@@ -1,4 +1,3 @@
-const axios = require("axios");
 const { adminToEmail, templates } = require("../configs/email-config");
 const { sendMail } = require("../utils/sendMail");
 
